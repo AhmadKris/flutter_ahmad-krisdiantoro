@@ -1,7 +1,7 @@
 # (03) Basic Version Control and Branch Management (Git)
 
 ## Data Diri
-Nomor Urut &nbsp;: 1_002FLB_44
+Nomor Urut &nbsp;: 1_002FLB_44 <br>
 Nama &emsp;&emsp;&ensp;&nbsp;: Ahmad Krisdiantoro
 
 ## Summary
