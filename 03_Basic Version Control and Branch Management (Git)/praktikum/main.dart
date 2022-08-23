@@ -1,3 +1,3 @@
 void main() {
-  print('Hello, World!');
+  print('git status, git add, git commit');
 }

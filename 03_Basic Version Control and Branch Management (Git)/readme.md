@@ -6,8 +6,10 @@ Nama &emsp;&emsp;&ensp;&nbsp;: Ahmad Krisdiantoro
 
 ## Summary
 Pada section ini saya belajar : 
-1. pertama
-2. kedua
+1. Cara membuat repository di github
+![Create Repository](screenshots/sum1.png)
+2. Menghubungkan VScode ke repository di github 
+
 3. Tiga
 
 ## Task 
