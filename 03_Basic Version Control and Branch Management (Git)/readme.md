@@ -8,9 +8,10 @@ Nama &emsp;&emsp;&ensp;&nbsp;: Ahmad Krisdiantoro
 Pada section ini saya belajar : 
 1. Cara membuat repository di github
 ![Create Repository](screenshots/sum1.png)
-2. Menghubungkan VScode ke repository di github 
-
-3. Tiga
-
+2. Belajar menggunankan git add, git commit, git push
+![git add, commit, push](screenshots/sum2.png)
+3. Belajar Branch
+![Branch](screenshots/sum3.png)
 ## Task 
 ### Task 01
+### Task 02
