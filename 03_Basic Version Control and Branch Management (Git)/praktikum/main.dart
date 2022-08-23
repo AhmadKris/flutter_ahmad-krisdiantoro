@@ -3,4 +3,5 @@ void main() {
   print('Update A');
   print('Update B');
   print('Update C');
+  print('Conflict B');
 }
