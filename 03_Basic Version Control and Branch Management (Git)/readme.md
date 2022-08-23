@@ -33,7 +33,7 @@ Implementasi instruksi git
 4. merge <br>
    ![Repo](screenshots/img7.png)
 ### Task 4
-Penanganan conflict
+Penanganan conflict ketika merge. dengan memilih salah satu dari branch atau menggabungkan keduanya.
 ### Task 5
 Merge no Fast Forward
 ![Repo](screenshots/img8.png)
