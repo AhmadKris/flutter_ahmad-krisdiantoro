@@ -25,10 +25,15 @@ Implementasi instruksi git
    ![Repo](screenshots/img5.png)
 2. pull <br>
    ![Repo](screenshots/img2.png)
-3. stash
+3. stash <br>
    ![Repo](screenshots/img4.png)
-   Setelah itu lakukan fixing, jika sudah lakukan add,commit, push. jika sudah maka apply
+   Setelah itu lakukan fixing, jika sudah lakukan add,commit, push. jika sudah maka apply <br>
    ![Repo](screenshots/img6.png)
    apabila terjadi conflict maka akan di diskusikan bersama tim.
-4. merge
-   
+4. merge <br>
+   ![Repo](screenshots/img7.png)
+### Task 4
+Penanganan conflict
+### Task 5
+Merge no Fast Forward
+![Repo](screenshots/img8.png)
