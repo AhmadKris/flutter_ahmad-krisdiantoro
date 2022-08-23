@@ -23,3 +23,12 @@ Implementasi Branching <br>
 Implementasi instruksi git
 1. push <br>
    ![Repo](screenshots/img5.png)
+2. pull <br>
+   ![Repo](screenshots/img2.png)
+3. stash
+   ![Repo](screenshots/img4.png)
+   Setelah itu lakukan fixing, jika sudah lakukan add,commit, push. jika sudah maka apply
+   ![Repo](screenshots/img6.png)
+   apabila terjadi conflict maka akan di diskusikan bersama tim.
+4. merge
+   
