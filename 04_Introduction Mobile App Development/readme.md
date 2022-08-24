@@ -15,7 +15,7 @@ Pada section ini saya belajar :
 3. Pegembangan Software
    1. Bahasa Pemrograman adalah sekumpulan instruksi untuk meberikan perintah ke komputer.
    2. Compiler adalah sebuah software yang digunakan untuk mengubah bahasa pemrograman menjadi bahasa mesin.
-4. Mobile App Developer
+4. Mobile App Developer<br>
    Proses pengembangan aplikasi untuk perangkat mobile (Android dan IOS).
 
 ## Task 
