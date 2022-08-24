@@ -1,8 +1,8 @@
-# <center>(04) Introduction Mobile App Development </center>
+# (04) Introduction Mobile App Development
 
-## <center>Data Diri</center>
-<center>Nomor Urut : 1_002FLB_44 <br>
-Nama : Ahmad Krisdiantoro</center>
+## Data Diri
+Nomor Urut &nbsp;: 1_002FLB_44 <br>
+Nama &emsp;&emsp;&ensp;&nbsp;: Ahmad Krisdiantoro
 
 ## Summary
 Pada section ini saya belajar : 
