@@ -43,3 +43,6 @@ Pada section ini saya belajar :
 3.	Google Keep
 4.	Opera Max
 5.	ES File Explorer File Manager
+
+### Link Google Docs
+https://docs.google.com/document/d/1Z6qmWeweAHepo9YtJGa0q8P1AhJUO7Qxvt2rtt1LoFI/edit?usp=sharing
