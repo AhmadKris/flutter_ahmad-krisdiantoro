@@ -20,3 +20,29 @@ Pada section ini saya belajar :
 
 ## Task 
 ### Task 01
+5 bahasa pemrograman untuk membuat aplikasi mobile beserta platform dari aplikasi yang dihasilkan : 
+1.	Java untuk mengembangkan aplikasi mobile berbasis Android.
+2.	Kotlin untuk mengembangkan aplikasi mobile berbasis Android.
+3.	Swift untuk mengembangkan aplikasi mobile berbasis IOS.
+4.	Objektive – C untuk mengembangkan aplikasi mobile berbasis IOS.
+5.	JavaScript untuk mengembangkan aplikasi mobile Cross – Platform.
+6.	Dart untuk mengembangkan aplikasi mobile Cross – Platform.
+
+### Task 02
+3 aplikasi yang dapat berjalan di iOS tetapi tidak di Android : 
+1.	iCloud
+2.	iMovie
+3.	iWork
+4.	Apps Store
+5.	Apple Music
+
+
+3 aplikasi yang dapat berjalan di Android tetapi tidak di iOS :
+1.	Play Store
+2.	Airdroid
+3.	Google Keep
+4.	Opera Max
+5.	ES File Explorer File Manager
+
+### Link Google Docs
+https://docs.google.com/document/d/1Z6qmWeweAHepo9YtJGa0q8P1AhJUO7Qxvt2rtt1LoFI/edit?usp=sharing
