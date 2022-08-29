@@ -29,3 +29,20 @@ Pada section ini saya belajar :
 
 ## Task 
 ### Task 01
+Implementasi rumus luas lingkaran pada program dart.<br>
+![lingkaran](screenshots/lingkaran.png)
+Penjelasan code : 
+1. import library 'dart:io'
+2. deklarasi sebuah konstanta dengan nama 'phi' dengan nilai '22 / 7'.
+3. deklarasi variabel 'hasil'.
+4. membuat sebuah inputan dinamis yang nantinya akan di simpan di variabel 'r'.
+5. membuat rumus lingkaran 'hasil = phi * r * r'.
+6. Mencetak kalimat 'Luas Lingkaran Adalah = ' dengan memanggil isi dari variabel '$hasil'.
+
+### Task 02
+Menyambung String menjadi sebuah kalimat.<br>
+![kalimat](screenshots/kalimat.png)
+Penjelasan code : 
+1. Membuat sebuah fungsi main.
+2. Mendeklarasi variabel dengan tipe data String 'nama', 'fakultas', 'progdi'.
+3. Mencetak kalimat dengan memanggil isi dari masing-masing variabel.
