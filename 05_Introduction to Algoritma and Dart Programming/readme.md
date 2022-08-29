@@ -18,13 +18,13 @@ Pada section ini saya belajar :
     Tipe data adalah pengklasifikasian sebuah data berdasarkan jenis yang dapat dikelola.
 6. Operator<br>
     Sebuah simbol yang digunakan untuk operasi pengolahan data.
-    1. Arithmetic.
+    1. Arithmetic. <br>
     +, -, *, /, %
-    2. Assignment.
+    2. Assignment.<br>
     =, +=, -=, *=, /=, %=
-    3. Comparisson.
+    3. Comparisson.<br>
     ==, <, >, <=, >=,
-    4. Logical.
+    4. Logical.<br>
     &&, ||, !
 
 ## Task 
