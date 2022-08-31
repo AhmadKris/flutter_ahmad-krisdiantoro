@@ -28,11 +28,6 @@ void test(var n) {
 }
 
 void main() {
-  // test(80);
-  // test(70);
-  // test(40);
-  // test(0);
-
   stdout.write("Masukkan Angka : ");
   int nilai = int.parse(stdin.readLineSync()!);
 
