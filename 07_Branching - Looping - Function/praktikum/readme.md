@@ -12,7 +12,7 @@ cara 1 :
 Penjelasan Code : 
 1. baris 4 : cetak ke layar
 2. baris 5 : mengambil input user kemudian simpan ke variabel 'n' 
-3. baris 7 - 15 : percabangan dengan kondisi tertentu untuk menentukan nilai yang di input oleh user, jika kondisi terpenuhi maka akan di cetak ke layar
+3. baris 7 - 15 : percabangan dengan kondisi tertentu untuk menentukan nilai yang di input oleh user, jika kondisi terpenuhi maka akan di cetak ke layar<br>
 cara 2 : 
 ![nilai2](/07_Branching%20-%20Looping%20-%20Function/screenshots/nilai3.png)
 Untuk penjelasan kurang lebih sama, hanya saja di sini saya menggunakan 2 function. 
