@@ -57,4 +57,4 @@ Penjelasan Code :
     - selain itu maka akan memanggil fungsi main()
 
 Output Code :<br>
-![outputFaktorial](/07_Branching%20-%20Looping%20-%20Function/screenshots/voidFaktorial.png)
+![outputFaktorial](/07_Branching%20-%20Looping%20-%20Function/screenshots/outputFaktorial.png)
