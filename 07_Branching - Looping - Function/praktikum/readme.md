@@ -55,3 +55,6 @@ Penjelasan Code :
 6. baris 78-82 : Percabangan untuk menentukan apa yang akan di eksekusi berdasarkan input user.
     - ulang = 'y' maka akan memanggil fungsi faktorial()
     - selain itu maka akan memanggil fungsi main()
+
+Output Code :<br>
+![outputFaktorial](/07_Branching%20-%20Looping%20-%20Function/screenshots/voidFaktorial.png)
