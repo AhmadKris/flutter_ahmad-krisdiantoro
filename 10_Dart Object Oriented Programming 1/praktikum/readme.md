@@ -16,11 +16,11 @@ Class hewan yang berisi 1 property.
 ![01_mobil](/10_Dart%20Object%20Oriented%20Programming%201/screenshots/01_mobil.png)
 
     Penjelasan Code : 
-    1. baris 1 : import hewan.dart
-    2. baris 3-26 : merupakan Class mobil yang mempunyai 2 property dan 1 method.
-    3. baris 4 : property kapasitas tipe konstanta dengan value/isi 1000
-    4. baris 5 : Merupakan sebuah list muatan dari class hewan.
-    5. baris 7-25 : method tambahMuatan dengan parameter muatanbaru.
+    - baris 1 : import hewan.dart
+    - baris 3-26 : merupakan Class mobil yang mempunyai 2 property dan 1 method.
+    - baris 4 : property kapasitas tipe konstanta dengan value/isi 1000
+    - baris 5 : Merupakan sebuah list muatan dari class hewan.
+    - baris 7-25 : method tambahMuatan dengan parameter muatanbaru.
         - baris 9-11 : untuk menghitung total dari muatan[].berat dan dimasukan ke variabel 'isi'.
         - baris 12 : cetak ke layar.
         - baris 13 : menghitung jumlah 'isi' + 'muatanBaru' kemudian hasilnya di tampung ke varibel 'sementara'.
