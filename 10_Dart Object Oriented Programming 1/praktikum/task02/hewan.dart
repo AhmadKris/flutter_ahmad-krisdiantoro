@@ -1,0 +1,3 @@
+class hewan {
+  var berat;
+}
