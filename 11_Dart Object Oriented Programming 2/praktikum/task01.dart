@@ -1,25 +1,25 @@
 class BangunRuang {
-  double panjang = 10;
-  double lebar = 5;
-  double tinggi = 7;
+  double panjang, lebar, tinggi;
 
-  void volume() {}
+  BangunRuang(this.panjang, this.lebar, this.tinggi);
+  volume() {}
 }
 
 class Kubus extends BangunRuang {
-  double sisi = 10;
-
+  double sisi;
+  Kubus(super.panjang, super.lebar, super.tinggi, this.sisi);
   @override
-  void volume() {
+  volume() {
     double hasil = sisi * sisi * sisi;
-    print("Volume Kubus : $hasil");
+    return ("Hasil Volume Kubus : $hasil");
   }
 }
 
 class Balok extends BangunRuang {
+  Balok(super.panjang, super.lebar, super.tinggi);
   @override
-  void volume() {
+  volume() {
     double hasil = panjang * lebar * tinggi;
-    print("Volume Balok : $hasil");
+    return ("Hasil Volume Balok : $hasil");
   }
 }

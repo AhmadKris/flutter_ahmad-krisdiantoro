@@ -1,13 +1,13 @@
 class Matematika {
-  void hasil() {}
+  hasil() {}
 }
 
 class KelipatanPersekutuanTerkecil implements Matematika {
-  var x = 12;
-  var y = 15;
-
+  var x;
+  var y;
+  KelipatanPersekutuanTerkecil(this.x, this.y);
   @override
-  void hasil() {
+  hasil() {
     var fpb = 0;
     for (var a = 1; a <= x; a++) {
       var b = x % a;
@@ -18,15 +18,16 @@ class KelipatanPersekutuanTerkecil implements Matematika {
     }
     var kpk = (x * y) / fpb;
 
-    print("Kelipatan Persekutuan Terkecil dari $x dan $y : $kpk");
+    return ("Kelipatan Persekutuan Terkecil dari $x dan $y : $kpk");
   }
 }
 
 class FaktorPersekutuanTerbesar implements Matematika {
-  var x = 12;
-  var y = 15;
+  var x;
+  var y;
+  FaktorPersekutuanTerbesar(this.x, this.y);
   @override
-  void hasil() {
+  hasil() {
     var fpb = 0;
     for (var a = 1; a <= x; a++) {
       var b = x % a;
@@ -35,13 +36,16 @@ class FaktorPersekutuanTerbesar implements Matematika {
         fpb = a;
       }
     }
-    print("Faktor Persekutuan Terbesar dari $x dan $y : $fpb");
+    return ("Faktor Persekutuan Terbesar dari $x dan $y : $fpb");
   }
 }
 
 void main(List<String> args) {
-  var KPT = KelipatanPersekutuanTerkecil();
-  var FPT = FaktorPersekutuanTerbesar();
-  KPT.hasil();
-  FPT.hasil();
+  List<Matematika> data = [];
+  data.add(KelipatanPersekutuanTerkecil(10, 15));
+  data.add(FaktorPersekutuanTerbesar(10, 15));
+
+  for (var operation in data) {
+    print(operation.hasil());
+  }
 }
