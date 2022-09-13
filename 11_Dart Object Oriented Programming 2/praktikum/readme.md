@@ -23,7 +23,7 @@ Penjelasan Code :
 3. Baris 33-35 : Perulangan untuk mengambil semua isi dari bangunRuang[].
     - Baris 34 : Cetak ke layar.
 
-Output<br>
+Output : <br>
 ![outputTask2](/11_Dart%20Object%20Oriented%20Programming%202/screenshots/outputTask2.png)
 
 ### Task 03
@@ -48,7 +48,7 @@ Penjelasan Code :
 3. Baris 48-50 : Perulangan untuk mengambil isi dari data[].
     - baris 49 : Cetak ke layar.
 
-Output<br>
+Output : <br>
 ![outputTask4](/11_Dart%20Object%20Oriented%20Programming%202/screenshots/outputTask4.png)
 
 ### Task 05
@@ -74,7 +74,8 @@ Penjelasan Code :
     - baris 54,55,58,61,62 : Pemanggilan method dari Class.
 6. Baris 65-67 : Perulangan untuk mengambil isi dari data[].
     - baris 66 : Cetak ke layar.
-Output<br>
+
+Output : <br>
 ![outputTask5](/11_Dart%20Object%20Oriented%20Programming%202/screenshots/outputTask5.png)
 
 ### Task 06
@@ -103,6 +104,6 @@ Penjelasan Code :
     - baris 67,68,72,73,74 : Pemanggilan method dari Class.
     - baris 76-78 : Perulanagan untuk mengambil isi dari list data[] kemudian cetak ke layar.
 
-Output<br>
+Output : <br>
 ![outputTask6](/11_Dart%20Object%20Oriented%20Programming%202/screenshots/outputTask6.png)
 
