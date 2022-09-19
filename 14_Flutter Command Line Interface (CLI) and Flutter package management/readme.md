@@ -23,5 +23,5 @@ Pada section ini saya belajar :
     - Cari package
     - Copy baris dependencies yang ada di bagian installing
     - Buka file pubspecs.yaml, paste barisnya di bawah dependencies
-    - run flutter pub get di terminal
-    - import package
+    - Run flutter pub get di terminal
+    - Import package
