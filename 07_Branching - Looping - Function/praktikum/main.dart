@@ -23,6 +23,10 @@ void main() {
       {
         exit(0);
       }
+    default:
+      print("Pilihan Salah!\n");
+      main();
+      break;
   }
 }
 
