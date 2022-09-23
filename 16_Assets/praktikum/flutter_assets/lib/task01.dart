@@ -12,6 +12,7 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(
           title: const Text("Flutter Assets"),
+          centerTitle: true,
         ),
         body: const ViewGrid(),
       ),
@@ -19,56 +20,51 @@ class MyApp extends StatelessWidget {
   }
 }
 
-class ViewGrid extends StatefulWidget {
+class ViewGrid extends StatelessWidget {
   const ViewGrid({super.key});
 
   @override
-  State<ViewGrid> createState() => _ViewGridState();
-}
-
-class _ViewGridState extends State<ViewGrid> {
-  @override
   Widget build(BuildContext context) {
     return GridView.count(
-      crossAxisCount: 1,
+      crossAxisCount: 2,
       padding: const EdgeInsetsDirectional.all(10),
       mainAxisSpacing: 10,
-      childAspectRatio: 1.5,
+      crossAxisSpacing: 10,
       children: [
-        FloatingActionButton(
-          child: const Image(
-            image: AssetImage("images/merbabu.jpg"),
-            alignment: Alignment.center,
-          ),
-          onPressed: () {
+        InkWell(
+          onTap: () {
             Navigator.push(
               context,
               MaterialPageRoute(builder: (context) => const Merbabu()),
             );
           },
-        ),
-        FloatingActionButton(
-          onPressed: () {
-            Navigator.push(
-              context,
-              MaterialPageRoute(builder: (context) => const Sindoro()),
-            );
-          },
-          child: const Image(
-            image: AssetImage("images/sindoro.jpg"),
-            alignment: Alignment.center,
+          child: Ink.image(
+            fit: BoxFit.fill,
+            image: const AssetImage("images/merbabu.jpg"),
           ),
         ),
-        FloatingActionButton(
-          onPressed: () {
+        InkWell(
+          onTap: () {
             Navigator.push(
               context,
               MaterialPageRoute(builder: (context) => const Sumbing()),
             );
           },
-          child: const Image(
-            image: AssetImage("images/sumbing.jpg"),
-            alignment: Alignment.center,
+          child: Ink.image(
+            fit: BoxFit.fill,
+            image: const AssetImage("images/sumbing.jpg"),
+          ),
+        ),
+        InkWell(
+          onTap: () {
+            Navigator.push(
+              context,
+              MaterialPageRoute(builder: (context) => const Sindoro()),
+            );
+          },
+          child: Ink.image(
+            fit: BoxFit.fill,
+            image: const AssetImage("images/sindoro.jpg"),
           ),
         ),
       ],

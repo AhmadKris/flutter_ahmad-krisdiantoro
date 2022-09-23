@@ -5,10 +5,11 @@ class Sindoro extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      alignment: Alignment.center,
-      child: const Image(
-        image: AssetImage("images/sindoro.jpg"),
+    return Scaffold(
+      body: Image.asset(
+        "images/sindoro.jpg",
+        height: 900,
+        fit: BoxFit.fill,
       ),
     );
   }

@@ -5,10 +5,11 @@ class Sumbing extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      alignment: Alignment.center,
-      child: const Image(
-        image: AssetImage("images/sumbing.jpg"),
+    return Scaffold(
+      body: Image.asset(
+        "images/sumbing.jpg",
+        height: 900,
+        fit: BoxFit.fill,
       ),
     );
   }

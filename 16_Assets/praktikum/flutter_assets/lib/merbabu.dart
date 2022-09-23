@@ -5,10 +5,11 @@ class Merbabu extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      alignment: Alignment.center,
-      child: const Image(
-        image: AssetImage("images/merbabu.jpg"),
+    return Scaffold(
+      body: Image.asset(
+        "images/merbabu.jpg",
+        height: 900,
+        fit: BoxFit.fill,
       ),
     );
   }
