@@ -14,7 +14,8 @@ Nama &emsp;&emsp;&ensp;&nbsp;: Ahmad Krisdiantoro
         padding: const EdgeInsetsDirectional.all(10),
         mainAxisSpacing: 10,
         crossAxisSpacing: 10,
-        children: [...
+        children: [
+            ...
             child: Ink.image(
                 fit: BoxFit.fill,
                 image: const AssetImage("images/merbabu.jpg"),
