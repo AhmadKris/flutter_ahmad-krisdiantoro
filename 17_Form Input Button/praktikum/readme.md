@@ -7,7 +7,7 @@ Nama &emsp;&emsp;&ensp;&nbsp;: Ahmad Krisdiantoro
 ## Task
 ### Task 01
 Main()
-```dart:
+```dart
 theme: ThemeData.dark(),
       initialRoute: Task01.routeName,
       routes: {
@@ -16,17 +16,17 @@ theme: ThemeData.dark(),
       },
 ```
 Static route task01.dart
-```dart:
+```dart
 static const routeName = '/contact';
 ```
 Menambahkan data contact ke Contact
-```dart:
+```dart
 List<Contact> dataContact = [
     ...data...
     ];
 ```
 Membuat AppBar
-```dart:
+```dart
 appBar: AppBar(
         title: const Text('Contacts'),
         centerTitle: true,
@@ -47,7 +47,7 @@ ListView.builder(
           }),
 ```
 Menambah tombol contact baru dengan fungsinya
-```dart:
+```dart
 floatingActionButton: FloatingActionButton(
           onPressed: () {
             Navigator.of(context)
@@ -57,7 +57,7 @@ floatingActionButton: FloatingActionButton(
     );
 ```
 Fungi tambah contact
-```dart:
+```dart
 void tambahContact(Contact contact) {
     setState(() {
       dataContact.add(contact);
@@ -67,11 +67,11 @@ void tambahContact(Contact contact) {
 
 ### Task 02
 Static route add_person.dart
-```dart:
+```dart
 static const routeName = '/contact/new';
 ```
 Global key 
-```dart:
+```dart
 final formKey = GlobalKey<FormState>();
 ```
 Variabel untuk menyimpan data
@@ -79,7 +79,7 @@ Variabel untuk menyimpan data
 var dataBaru = {'nama': '', 'nomor': ''};
 ```
 Fungsi _onSubmit
-```dart:
+```dart
 void _onSubmit() {
     formKey.currentState!.save();
     final contactBaru = Contact(
@@ -90,13 +90,13 @@ void _onSubmit() {
   }
 ```
 AppBar
-```dart:
+```dart
 appBar: AppBar(
         title: const Text('Create New Contact'),
       ),
 ```
 Membuat TextFormField didalam Form dengan validator dan onSaved
-```dart:
+```dart
 TextFormField(
                 keyboardType: TextInputType.name,
                 textInputAction: TextInputAction.next,
@@ -119,7 +119,7 @@ TextFormField(
               ),
 ```
 Membuat tombol untuk submit beserta fungsinya
-```dart:
+```dart
 Container(
         padding: const EdgeInsets.all(10),
         child: ElevatedButton(
