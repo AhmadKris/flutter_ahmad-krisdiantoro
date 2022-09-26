@@ -33,7 +33,7 @@ appBar: AppBar(
       ),
 ```
 Menampilkan data Contact
-```dart:
+```dart
 ListView.builder(
           itemCount: contact.length,
           itemBuilder: ((context, index) {
