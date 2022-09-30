@@ -1,25 +1,10 @@
+import 'dart:io';
 import 'package:flutter/material.dart';
-// import 'package:form_picker/model.dart';
-// import './create_post.dart';
-// import 'package:file_picker/file_picker.dart';
-// import 'package:open_file/open_file.dart';
+import 'package:form_picker/create_post.dart';
 
-class PreviewPost extends StatefulWidget {
-  static const routeName = '/create/preview';
-  const PreviewPost({super.key});
-
-  @override
-  State<PreviewPost> createState() => _PreviewPostState();
-}
-
-class _PreviewPostState extends State<PreviewPost> {
-  // List<Model> data = [];
-
-  // void tambah(Model model) {
-  //   setState(() {
-  //     data.add(model);
-  //   });
-  // }
+class PreviewPost extends StatelessWidget {
+  final File fileToDisplay;
+  const PreviewPost({required this.fileToDisplay, super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -29,13 +14,49 @@ class _PreviewPostState extends State<PreviewPost> {
         centerTitle: true,
       ),
       body: SingleChildScrollView(
-          // child: ListView.builder(
-          //   itemBuilder: (context, index) {
-          //     // print(data);
-          //     return ListTile();
-          // },
-          // ),
+        child: Form(
+          child: Container(
+            padding: const EdgeInsets.all(15),
+            child: Column(
+              children: [
+                Image.file(fileToDisplay),
+                const SizedBox(
+                  height: 30,
+                ),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    Row(
+                      children: [
+                        const Text("Published : "),
+                        Text(dateInputController.text),
+                      ],
+                    ),
+                    Row(
+                      children: [
+                        const Text("Color : "),
+                        SizedBox(
+                          height: 20,
+                          child: CircleAvatar(
+                            backgroundColor: currentColor,
+                          ),
+                        ),
+                      ],
+                    ),
+                  ],
+                ),
+                const SizedBox(
+                  height: 30,
+                ),
+                Text(
+                  captionInputController.text,
+                  textAlign: TextAlign.justify,
+                ),
+              ],
+            ),
           ),
+        ),
+      ),
     );
   }
 }
