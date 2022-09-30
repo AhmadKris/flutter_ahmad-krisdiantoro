@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:form_picker/create_post.dart';
 
-import 'package:form_picker/preview_post.dart';
-
 void main() {
   runApp(const MyApp());
 }
@@ -14,10 +12,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData.dark(useMaterial3: true),
-      initialRoute: CreatePost.routName,
+      initialRoute: '/',
       routes: {
-        CreatePost.routName: (context) => const CreatePost(),
-        PreviewPost.routeName: (context) => const PreviewPost(),
+        '/': (context) => const CreatePost(),
       },
     );
   }
