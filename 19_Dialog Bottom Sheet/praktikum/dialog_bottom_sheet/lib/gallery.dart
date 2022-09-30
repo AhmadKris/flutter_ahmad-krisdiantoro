@@ -31,7 +31,7 @@ class Gallery extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Galerry"),
+        title: const Text("Gallery"),
         centerTitle: true,
       ),
       body: GridView.builder(
