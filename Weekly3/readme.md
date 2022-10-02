@@ -115,15 +115,15 @@ Nama &emsp;&emsp;&ensp;&nbsp;: Ahmad Krisdiantoro
     }
     ```
 ## Output
-![out1](/Weekly3/screenshot/out1.jpg)
-![out2](/Weekly3/screenshot/out2.jpg)
-![out3](/Weekly3/screenshot/out3.jpg)
-![out4](/Weekly3/screenshot/out4.jpg)
-![out5](/Weekly3/screenshot/out5.jpg)
-![out6](/Weekly3/screenshot/out6.jpg)
-![out7](/Weekly3/screenshot/out7.jpg)
-![out8](/Weekly3/screenshot/out8.jpg)
-![out9](/Weekly3/screenshot/out9.jpg)
+![out1](/Weekly3/screenshot/out1.jpg)<br>
+![out2](/Weekly3/screenshot/out2.jpg)<br>
+![out3](/Weekly3/screenshot/out3.jpg)<br>
+![out4](/Weekly3/screenshot/out4.jpg)<br>
+![out5](/Weekly3/screenshot/out5.jpg)<br>
+![out6](/Weekly3/screenshot/out6.jpg)<br>
+![out7](/Weekly3/screenshot/out7.jpg)<br>
+![out8](/Weekly3/screenshot/out8.jpg)<br>
+![out9](/Weekly3/screenshot/out9.jpg)<br>
     
 
               
