@@ -33,13 +33,13 @@ trailing: InkWell(
 ```
 ### Output 
 Menambahkan item ke list cart page <br>
-![out1](/22_Flutter%20State%20Management%20(BLoC)/screenshots/chart1.png)
+![out1](/22_Flutter%20State%20Management%20(BLoC)/screenshots/chart1.png)<br>
 Melihat list item yang sudah di tambahkan <br>
-![out2](/22_Flutter%20State%20Management%20(BLoC)/screenshots/chart2.png)
+![out2](/22_Flutter%20State%20Management%20(BLoC)/screenshots/chart2.png)<br>
 Ketika di pencet icon delete maka item akah terhapus <br>
-![out3](/22_Flutter%20State%20Management%20(BLoC)/screenshots/chart3.png)
+![out3](/22_Flutter%20State%20Management%20(BLoC)/screenshots/chart3.png)<br>
 Ketika di lihat pada halaman awal pada item yang sudah dihapus iconya sudah tidak berwarna ungu lagi.<br>
-![out4](/22_Flutter%20State%20Management%20(BLoC)/screenshots/chart4.png)
+![out4](/22_Flutter%20State%20Management%20(BLoC)/screenshots/chart4.png)<br>
 
 ## Task 
 contact event
