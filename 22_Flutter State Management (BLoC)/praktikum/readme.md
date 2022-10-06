@@ -38,7 +38,7 @@ Melihat list item yang sudah di tambahkan <br>
 ![out2](/22_Flutter%20State%20Management%20(BLoC)/screenshots/chart2.png)
 Ketika di pencet icon delete maka item akah terhapus <br>
 ![out3](/22_Flutter%20State%20Management%20(BLoC)/screenshots/chart3.png)
-Ketika di lihat pada halaman awal pada item yang sudah dihapus iconya sudah tidak berwarna ungu lagi.
+Ketika di lihat pada halaman awal pada item yang sudah dihapus iconya sudah tidak berwarna ungu lagi.<br>
 ![out4](/22_Flutter%20State%20Management%20(BLoC)/screenshots/chart4.png)
 
 ## Task 
