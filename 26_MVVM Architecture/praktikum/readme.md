@@ -187,3 +187,6 @@ class DetailContact extends StatelessWidget {
   }
 }
 ```
+
+## Output
+![output](/26_MVVM%20Architecture/screenshots/output.gif)
