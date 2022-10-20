@@ -8,7 +8,7 @@ Nama &emsp;&emsp;&ensp;&nbsp;: Ahmad Krisdiantoro
 
 ### Task 01 
 
-1. MVVM 
+1. MVVM <br>
 ![mvvm](/27_Finite%20State%20Machine%20and%20Unit%20Testing/screenshots/mvvm.png)
 
 2. Model
