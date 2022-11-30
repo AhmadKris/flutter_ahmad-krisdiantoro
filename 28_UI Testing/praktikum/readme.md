@@ -101,6 +101,7 @@ void main() {
     // expect(find.byWidget(ListView()), findsOneWidget);
   });
 }
+
 ```
 4. Struktur Folder <br>
 ![mvvm](/28_UI%20Testing/screenshots/mvvm.png)
@@ -115,5 +116,15 @@ void main() {
 ![test](/28_UI%20Testing/screenshots/test.png)
 ![test1](/28_UI%20Testing/screenshots/test1.png)
 ![gagal](/28_UI%20Testing/screenshots/gagal.png)
+
+### Remidi 
+
+## Negatif Test
+
+```dart
+
+    // test pada widget yang belum ada
+    expect(find.byWidget(ListView()), findsNothing);
+```
 
 

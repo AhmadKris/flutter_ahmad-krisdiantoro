@@ -10,7 +10,7 @@ void main() {
 
     expect(find.text('History'), findsOneWidget);
 
-    //test pada widget yang belum ada
-    // expect(find.byWidget(ListView()), findsOneWidget);
+    // test pada widget yang belum ada
+    expect(find.byWidget(ListView()), findsNothing);
   });
 }
